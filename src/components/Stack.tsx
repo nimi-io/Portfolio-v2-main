@@ -50,7 +50,7 @@ export const Stacks = () => {
         justifyContent="start"
         alignItems="start"
         alignContent="start"
-        columns={{ base: 2, md: 3, lg: 4 }}
+        // columns={{ base: 2, md: 3, lg: 4 }}
         spacing={20}
       >
         <StackBox>

@@ -40,7 +40,7 @@ export const Footer = (props: FlexProps) => {
       <Flex
         py={4}
         direction={{ base: "row", md: "row" }}
-        spacing={4}
+        // spacing={4}
         justify={{ base: "space-between", md: "space-between" }}
         align={{ base: "center", md: "center" }}
       >
@@ -50,13 +50,13 @@ export const Footer = (props: FlexProps) => {
           </Text>
         </Box>
         <Stack justify="" direction={"row"} spacing={6}>
-          <SocialButton label={"Github"} href={"https://github.com/iamug"}>
+          <SocialButton label={"Github"} href={"https://github.com/nimi-io"}>
             <i className="fab fa-github" />
           </SocialButton>
-          <SocialButton label={"Linkedln"} href={"https://www.linkedin.com/in/aguziendu-ugochukwu/"}>
+          <SocialButton label={"Linkedln"} href={"https://www.linkedin.com/in/nimi-io/"}>
             <i className="fab fa-linkedin-in" />
           </SocialButton>
-          <SocialButton label={"Instagram"} href={"https://instagram.com/iamug_"}>
+          <SocialButton label={"Instagram"} href={"https://instagram.com/nimi.io"}>
             <i className="fab fa-instagram" />
           </SocialButton>
         </Stack>

@@ -6,14 +6,14 @@ export default class Document extends NextDocument {
     return (
       <Html>
         <Head>
-          <meta name="description" content="Portfolio site for Aguziendu Ugochukwu Software Engineer" />
-          <meta name="author" content="Aguziendu Ugochukwu, ugochukwu.dev, iamug.github.io/Portfolio-v2, ugochukwu.dev" />
+          <meta name="description" content="Portfolio site for Ibukun-Odunsi Toluwanimi Software Engineer" />
+          <meta name="author" content="Ibukun-Odunsi Toluwanimi, nimi.dev, nimi.github.io/Portfolio-v2, nimi.dev" />
           <meta
             name="keywords"
-            content="Aguziendu Ugochukwu Portfolio Web Designer developer Uzodinma Website software engineer Hire"
+            content="Ibukun-Odunsi Toluwanimi Portfolio Web Designer developer Uzodinma Website software engineer Hire"
           />
-          <meta property="og:title" content="Aguziendu Ugochukwu - Software Engineer" key="title" />
-          <title>Aguziendu Ugochukwu - Software Engineer </title>
+          <meta property="og:title" content="Ibukun-Odunsi Toluwanimi - Software Engineer" key="title" />
+          <title>Ibukun-Odunsi Toluwanimi - Software Engineer </title>
         </Head>
         <link
           rel="stylesheet"
