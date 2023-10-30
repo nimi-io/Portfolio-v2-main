@@ -1,6 +1,14 @@
 import { ArrowDownIcon, ExternalLinkIcon } from "@chakra-ui/icons";
 import { Flex, Heading, useColorModeValue } from "@chakra-ui/react";
-import { Link, Text, Stack, Button, Box, IconButton, Image } from "@chakra-ui/react";
+import {
+  Link,
+  Text,
+  Stack,
+  Button,
+  Box,
+  IconButton,
+  Image,
+} from "@chakra-ui/react";
 
 export const Hero = ({ title }: { title: string }) => {
   const color = useColorModeValue("gray.700", "white");
@@ -95,7 +103,9 @@ export const Hero = ({ title }: { title: string }) => {
                   fit={"cover"}
                   align={"center"}
                   boxSize={{ sm: "200px", md: "500px" }}
-                  src={ "https://res.cloudinary.com/dd6cbg23n/image/upload/v1681594324/1643401142539_tu00iu.jpg"}
+                  src={
+                    "https://res.cloudinary.com/dd6cbg23n/image/upload/v1681594324/1643401142539_tu00iu.jpg"
+                  }
                 />
               </Box>
             </Flex>

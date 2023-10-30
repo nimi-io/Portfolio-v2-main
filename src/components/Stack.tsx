@@ -11,7 +11,15 @@ import {
   useColorModeValue,
   Wrap,
 } from "@chakra-ui/react";
-import { Link as ChakraLink, Text, Stack, Button, Box, IconButton, Image } from "@chakra-ui/react";
+import {
+  Link as ChakraLink,
+  Text,
+  Stack,
+  Button,
+  Box,
+  IconButton,
+  Image,
+} from "@chakra-ui/react";
 import { CheckCircleIcon, CheckIcon, LinkIcon } from "@chakra-ui/icons";
 import { IWork, Works as data } from "../data/works";
 import React, { ReactElement } from "react";
@@ -27,7 +35,11 @@ export const Stacks = () => {
       rounded="lg"
       border="1px"
       minW="250px"
-      _hover={{ boxShadow: "2xl", color: "teal:700", bg: colorMode == "light" ? "teal.100" : "red:800" }}
+      _hover={{
+        boxShadow: "2xl",
+        color: "teal:700",
+        bg: colorMode == "light" ? "teal.100" : "red:800",
+      }}
       borderColor="teal.100"
     >
       {children}
@@ -64,7 +76,7 @@ export const Stacks = () => {
           </Text>
           <Box color={color} fontWeight="600">
             <List spacing={3}>
-              {["Nodejs / Express", "Nestjs", "Python / Flask"].map(
+              {["Nodejs / Express", "Nestjs", "Golang", "Python / Flask"].map(
                 (item, index) => (
                   <ListItem key={index}>
                     <ListIcon as={CheckIcon} color="green.500" /> {item}
@@ -85,13 +97,18 @@ export const Stacks = () => {
           </Text>
           <Box color={color} fontWeight="600">
             <List spacing={3}>
-              {["Github Actions ", "Docker", "Kafka", "Jest", "AWS"].map(
-                (item, index) => (
-                  <ListItem key={index}>
-                    <ListIcon as={CheckIcon} color="green.500" /> {item}
-                  </ListItem>
-                )
-              )}
+              {[
+                "Github Actions ",
+                "Docker",
+                "Redis",
+                "Kafka",
+                "Jest",
+                "AWS",
+              ].map((item, index) => (
+                <ListItem key={index}>
+                  <ListIcon as={CheckIcon} color="green.500" /> {item}
+                </ListItem>
+              ))}
             </List>
           </Box>
         </StackBox>
@@ -106,7 +123,7 @@ export const Stacks = () => {
           </Text>
           <Box color={color} fontWeight="600">
             <List spacing={3}>
-              {["MongoDB", "MySQL", "Redis"].map((item, index) => (
+              {["MongoDB", "MySQL", "Postgres", "Redis"].map((item, index) => (
                 <ListItem key={index}>
                   <ListIcon as={CheckIcon} color="green.500" /> {item}
                 </ListItem>
@@ -115,12 +132,23 @@ export const Stacks = () => {
           </Box>
         </StackBox>
         <StackBox>
-          <Text fontSize={{ base: "xl" }} color={color} fontWeight={700} minHeight="3rem">
+          <Text
+            fontSize={{ base: "xl" }}
+            color={color}
+            fontWeight={700}
+            minHeight="3rem"
+          >
             Others
           </Text>
           <Box color={color} fontWeight="600">
             <List spacing={3}>
-              {["Scripting", "Automation Testing", "ML", "IOT", "Embedded Systems"].map((item, index) => (
+              {[
+                "Scripting",
+                "Automation Testing",
+                "ML",
+                "IOT",
+                "Embedded Systems",
+              ].map((item, index) => (
                 <ListItem key={index}>
                   <ListIcon as={CheckIcon} color="green.500" /> {item}
                 </ListItem>

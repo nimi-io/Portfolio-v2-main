@@ -7,29 +7,36 @@ export interface IWork {
 }
 export const Works: Array<IWork> = [
   {
+    name: "Figorr Enterprise App v2",
+    description:
+      "Gricd Enterpris application backend to allow users to register, login. create and search for groups and its members aswell as monitor in device parameters in realtime",
+    stack: "Nestjs, Redis, Apache Kafka, Express and Mongodb",
+    github: "enterprise.figorr.com",
+    live: "enterprise.figorr.com",
+  },
+  {
+    name: "Liscence Managment System(Backend) ",
+    description:
+      "A License Management System (LMS) Backend is the core software infrastructure responsible for issuing, tracking, and enforcing software licenses to ensure compliance and protect intellectual property.",
+    stack: "Nodejs, Express, MongoDB",
+    live: "https://rororeg.com/",
+  },
+  {
+    name: "User Bank System",
+    description:
+      "User banking system backend to create accounts, fund account, transfer and withdraw from account",
+    stack: "ExpressJS and Postgres",
+    github: "", //"https://github.com/iamug/User-Bank-System",
+    live: "", //"https://user-bank-system.herokuapp.com/",
+  },
+  {
     name: "Gricd Enterprise App v1",
     description:
       "Gricd Enterpris application backend to allow users to register, login. create and search for groups and its members aswell as monito in device parameters in realtime",
     stack: "NodeJs, Express and Mongodb",
-    github: "https://github.com",
+    github: "enterprise.gricd.com",
     live: "enterprise.gricd.com",
   },
-  {
-    name: "Gricd Enterprise App v2",
-    description:
-      "Gricd Enterpris application backend to allow users to register, login. create and search for groups and its members aswell as monito in device parameters in realtime",
-    stack: "Nestjs, Redis, Apache Kafka, Express and Mongodb",
-    github: "https://github.com",
-    live: "enterprise.gricd.com",
-  },
-  // {
-  //   name: "User Bank System",
-  //   description:
-  //     "User banking system backend to create accounts, fund account, transfer and withdraw from account",
-  //   stack: "Nestjs, Knex and MySQL",
-  //   github: "https://github.com/iamug/User-Bank-System",
-  //   live: "https://user-bank-system.herokuapp.com/",
-  // },
   // {
   //   name: "Find Talents App",
   //   description:
@@ -53,13 +60,7 @@ export const Works: Array<IWork> = [
   //   stack: "Nodejs, Express, MongoDB , React, Bootstrap 5, RSuite",
   //   live: "https://admin.commute.ng",
   // },
-  // {
-  //   name: "Vehicle Managment Dashboard ",
-  //   description:
-  //     "User dashboar to onboard vehicles and track earnings of vehicles  ",
-  //   stack: "Nodejs, Express, MongoDB , React, Bootstrap 5, RSuite",
-  //   live: "https://partner.commute.ng",
-  // },
+
   // {
   //   name: "ExpressWebJS Website ",
   //   description: "Website design for an open source Nodejs backend framework",
