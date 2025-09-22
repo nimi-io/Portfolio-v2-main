@@ -7,6 +7,13 @@ export interface IWork {
 }
 export const Works: Array<IWork> = [
   {
+    name: "JourneyWise AI & Automation Platform",
+    description:
+      "Led development of AI-driven automation solutions as Senior Software Engineer and Founding Engineer. Built scalable backend infrastructure with ML model integration, robust CI/CD pipelines, and reduced system downtime by 60%.",
+    stack: "AI/ML Integration, Backend Architecture, DevOps, CI/CD Pipelines",
+    live: "journeywise.io",
+  },
+  {
     name: "Figorr Enterprise App v2",
     description:
       "Gricd Enterpris application backend to allow users to register, login. create and search for groups and its members aswell as monitor in device parameters in realtime",
